@@ -37,6 +37,12 @@ want to be added to the notification list, feel free to reach out. :)
 If anything fails during a run — network timeout, site structure change, anything — the bot emails me directly with the error so I can fix it. 
 No silent failures.
 
+## Screenshots
+
+## Screenshots
+
+| ![](ss/rohan.jpeg) | ![](ss/paran.jpeg) | ![](ss/ahsan.jpeg) |  
+
 ## Stack
 
 Python · Playwright · BeautifulSoup · smtplib · GitHub Actions
