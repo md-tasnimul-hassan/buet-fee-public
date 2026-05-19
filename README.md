@@ -41,7 +41,7 @@ No silent failures.
 
 ## Screenshots
 
-| ![](ss/rohan.jpeg) | ![](ss/paran.jpeg) | ![](ss/ahsan.jpeg) |  
+| ![](ss/rohan.jpg) | ![](ss/paran.jpg) | ![](ss/ahsan.jpg) |  
 
 ## Stack
 
