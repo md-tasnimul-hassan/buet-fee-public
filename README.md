@@ -1,6 +1,6 @@
 # BUET Dining Fee Notifier
 
-My dorm in BUET post due fee notices in physical notice boards that i had little patience to check every few days. So one weekend's night, I built a bot that checks everyone's balance daily and emails them automatically if anything is due. It has been running in production since February, 2026.
+My hall in BUET post due fee notices in physical notice boards that i had little patience to check every few days. So one weekend's night, I built a bot that checks everyone's balance daily and emails them automatically if anything is due. It has been running in production since February, 2026.
 
 ## How it works
 
