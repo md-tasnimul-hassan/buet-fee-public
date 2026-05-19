@@ -1,0 +1,44 @@
+name: buet fee bot
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # every day at 00:00 
+  workflow_dispatch:      # allow manual run
+
+permissions:
+    contents: write
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+            token: ${{ secrets.GITHUB_TOKEN }}
+            persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium
+          playwright install-deps
+
+      - name: Run scraper
+        env:
+          MAIL_PASS: ${{ secrets.MAIL_PASS }}
+        run: python fee.py
+
+      - name: Commit updated databases
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git commit -m "Update databases" || echo "No changes"
+          git push
