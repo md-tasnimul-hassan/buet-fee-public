@@ -41,7 +41,15 @@ No silent failures.
 
 ## Screenshots
 
-| ![](ss/rohan.jpg) | ![](ss/paran.jpg) | ![](ss/ahsan.jpg) |  
+## Screenshots
+
+<p align="center">
+  <img src="ss/ahsan.jpg" width="250"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="ss/rohan.jpg" width="250"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="ss/paran.jpg" width="250"/>
+</p>
 
 ## Stack
 
