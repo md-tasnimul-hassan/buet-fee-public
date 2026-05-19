@@ -2,6 +2,16 @@
 
 My hall in BUET posts due fee notices in physical notice boards that most have little patience to check every few days. So one weekend's night, I built a bot that checks everyone's balance daily and emails them automatically if anything is due. It has been running in production since February, 2026.
 
+## Screenshots
+
+<p align="center">
+  <img src="ss/ahsan.jpg" width="250"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="ss/rohan.jpg" width="250"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="ss/paran.jpg" width="250"/>
+</p>
+
 ## How it works
 
 The script launches a headless Chromium engine using **Playwright** and navigates
@@ -36,16 +46,6 @@ want to be added to the notification list, feel free to reach out. :)
 
 If anything fails during a run — network timeout, site structure change, anything — the bot emails me directly with the error so I can fix it. 
 No silent failures.
-
-## Screenshots
-
-<p align="center">
-  <img src="ss/ahsan.jpg" width="250"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="ss/rohan.jpg" width="250"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="ss/paran.jpg" width="250"/>
-</p>
 
 ## Stack
 
