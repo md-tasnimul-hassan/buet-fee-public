@@ -39,10 +39,6 @@ No silent failures.
 
 ## Screenshots
 
-## Screenshots
-
-## Screenshots
-
 <p align="center">
   <img src="ss/ahsan.jpg" width="250"/>
   &nbsp;&nbsp;&nbsp;
