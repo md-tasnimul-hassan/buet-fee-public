@@ -157,7 +157,7 @@ def main():
                 if(amount > 0.00):
                    sendMail(db[student_id], name, amount) 
             except Exception as e:
-                errorMail("hassan.21.mf@gmail.com", str(e))
+                errorMail("example@gmail.com", str(e))
                 pass
 
         browser.close()
